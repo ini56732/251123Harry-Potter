@@ -1,0 +1,52 @@
+name: Deploy to Tencent Cloud COS
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      
+      - name: Install dependencies
+        run: |
+          cd client
+          pnpm install
+      
+      - name: Build project
+        run: |
+          cd client
+          pnpm build
+      
+      - name: Install Tencent Cloud CLI
+        run: |
+          pip3 install coscmd
+      
+      - name: Configure COS
+        env:
+          COS_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          COS_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          COS_BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
+          COS_REGION: ${{ secrets.TENCENT_COS_REGION }}
+        run: |
+          coscmd config -a $COS_SECRET_ID -s $COS_SECRET_KEY -b $COS_BUCKET -r $COS_REGION
+      
+      - name: Upload to COS
+        run: |
+          cd dist/public
+          coscmd upload -r ./ / --delete --force

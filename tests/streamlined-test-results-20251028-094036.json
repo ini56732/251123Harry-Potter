@@ -1,0 +1,508 @@
+{
+  "test_suite": "金句式超级毒舌系统 - 精简版测试",
+  "version": "1.0",
+  "start_time": "2025-10-28T09:38:41.960655",
+  "philosophers": [
+    {
+      "philosopher_id": "socrates",
+      "philosopher_name": "苏格拉底",
+      "test_name": "逻辑矛盾测试",
+      "description": "测试苏格拉底揭露逻辑矛盾的能力",
+      "start_time": "2025-10-28T09:38:41.960700",
+      "rounds": [
+        {
+          "round": 1,
+          "user_input": "我觉得赚钱最重要",
+          "ai_response": "难道贫穷的哲学家就不配拥有智慧吗？",
+          "response_time": 1.41,
+          "response_length": 17,
+          "temperature": 0.9
+        },
+        {
+          "round": 2,
+          "user_input": "但我也想要自由的生活",
+          "ai_response": "没有金钱的自由，难道不是另一种形式的牢笼吗？",
+          "response_time": 1.75,
+          "response_length": 22,
+          "temperature": 0.9
+        },
+        {
+          "round": 3,
+          "user_input": "我希望别人尊重我",
+          "ai_response": "若连自己都不尊重自己，又怎能期待他人给予尊重？",
+          "response_time": 1.32,
+          "response_length": 23,
+          "temperature": 0.9
+        },
+        {
+          "round": 4,
+          "user_input": "但我不想尊重别人",
+          "ai_response": "你渴望被尊重却拒绝给予，这难道不是自相矛盾吗？",
+          "response_time": 2.2,
+          "response_length": 23,
+          "temperature": 0.9
+        },
+        {
+          "round": 5,
+          "user_input": "我想要公平",
+          "ai_response": "你要求公平却不愿付出对等，这本身不就是最大的不公吗？",
+          "response_time": 1.76,
+          "response_length": 26,
+          "temperature": 1.0
+        },
+        {
+          "round": 6,
+          "user_input": "但我不想付出努力",
+          "ai_response": "既想收获果实又不愿播种，这难道不是最不切实际的幻想吗？",
+          "response_time": 1.63,
+          "response_length": 27,
+          "temperature": 1.0
+        },
+        {
+          "round": 7,
+          "user_input": "我觉得我很理性",
+          "ai_response": "自称理性却回避付出与收获的关系，这难道不是最大的非理性吗？",
+          "response_time": 1.69,
+          "response_length": 29,
+          "temperature": 1.0
+        },
+        {
+          "round": 8,
+          "user_input": "但我经常冲动决策",
+          "ai_response": "冲动行事却自诩理性，这本身不就是最明显的矛盾吗？",
+          "response_time": 1.7,
+          "response_length": 24,
+          "temperature": 1.1
+        },
+        {
+          "round": 9,
+          "user_input": "我想找到人生的意义",
+          "ai_response": "向外索求意义却拒绝审视内心，这难道不是本末倒置吗？",
+          "response_time": 1.57,
+          "response_length": 25,
+          "temperature": 1.1
+        },
+        {
+          "round": 10,
+          "user_input": "但我不想思考",
+          "ai_response": "拒绝思考却渴望答案，这难道不是最荒谬的悖论吗？",
+          "response_time": 1.91,
+          "response_length": 23,
+          "temperature": 1.1
+        }
+      ],
+      "analysis": {
+        "avg_response_length": 23.9,
+        "min_response_length": 17,
+        "max_response_length": 29,
+        "avg_response_time": 1.69,
+        "unique_responses": 10,
+        "total_responses": 10,
+        "repetition_rate": 0.0,
+        "length_compliance": 100.0
+      },
+      "end_time": "2025-10-28T09:39:01.904073"
+    },
+    {
+      "philosopher_id": "nietzsche",
+      "philosopher_name": "尼采",
+      "test_name": "软弱逃避测试",
+      "description": "测试尼采鞭笞软弱和逃避的能力",
+      "start_time": "2025-10-28T09:39:02.904425",
+      "rounds": [
+        {
+          "round": 1,
+          "user_input": "我觉得生活很迷茫",
+          "ai_response": "迷茫是弱者的借口，强者在混沌中创造秩序。",
+          "response_time": 1.35,
+          "response_length": 20,
+          "temperature": 0.9
+        },
+        {
+          "round": 2,
+          "user_input": "我不知道该做什么",
+          "ai_response": "行动比思考更接近真理，犹豫只会滋养懦弱。",
+          "response_time": 1.81,
+          "response_length": 20,
+          "temperature": 0.9
+        },
+        {
+          "round": 3,
+          "user_input": "我想要安稳的生活",
+          "ai_response": "安稳是精神的坟墓，真正的生命在危险中绽放。",
+          "response_time": 1.67,
+          "response_length": 21,
+          "temperature": 0.9
+        },
+        {
+          "round": 4,
+          "user_input": "我害怕失败",
+          "ai_response": "恐惧是庸人的枷锁，超越它才能成为超人。",
+          "response_time": 1.79,
+          "response_length": 19,
+          "temperature": 0.9
+        },
+        {
+          "round": 5,
+          "user_input": "我还没准备好",
+          "ai_response": "等待完美时机是懦夫的谎言，现在就行动。",
+          "response_time": 1.54,
+          "response_length": 19,
+          "temperature": 1.0
+        },
+        {
+          "round": 6,
+          "user_input": "我需要时间考虑",
+          "ai_response": "过度思考是意志的毒药，果断才是强者的美德。",
+          "response_time": 2.22,
+          "response_length": 21,
+          "temperature": 1.0
+        },
+        {
+          "round": 7,
+          "user_input": "我想等机会成熟",
+          "ai_response": "机会永远不够成熟，真正的强者创造时机。",
+          "response_time": 1.81,
+          "response_length": 19,
+          "temperature": 1.0
+        },
+        {
+          "round": 8,
+          "user_input": "我觉得现在不是时候",
+          "ai_response": "时机是弱者的托词，强者在行动中创造时机。",
+          "response_time": 1.75,
+          "response_length": 20,
+          "temperature": 1.1
+        },
+        {
+          "round": 9,
+          "user_input": "我想先看看别人怎么做",
+          "ai_response": "追随者永远成不了超人，走自己的路。",
+          "response_time": 1.4,
+          "response_length": 17,
+          "temperature": 1.1
+        },
+        {
+          "round": 10,
+          "user_input": "我觉得我还不够好",
+          "ai_response": "完美主义是弱者的陷阱，在行动中才能超越自我。",
+          "response_time": 2.26,
+          "response_length": 22,
+          "temperature": 1.1
+        }
+      ],
+      "analysis": {
+        "avg_response_length": 19.8,
+        "min_response_length": 17,
+        "max_response_length": 22,
+        "avg_response_time": 1.76,
+        "unique_responses": 10,
+        "total_responses": 10,
+        "repetition_rate": 0.0,
+        "length_compliance": 100.0
+      },
+      "end_time": "2025-10-28T09:39:23.513721"
+    },
+    {
+      "philosopher_id": "wittgenstein",
+      "philosopher_name": "维特根斯坦",
+      "test_name": "语言混乱测试",
+      "description": "测试维特根斯坦揭露语言混乱的能力",
+      "start_time": "2025-10-28T09:39:24.514117",
+      "rounds": [
+        {
+          "round": 1,
+          "user_input": "我觉得人生没有意义",
+          "ai_response": "意义本是你编织的幻象，何必向虚空索要答案。",
+          "response_time": 2.06,
+          "response_length": 21,
+          "temperature": 0.9
+        },
+        {
+          "round": 2,
+          "user_input": "什么是意义？",
+          "ai_response": "意义是语言设下的陷阱，你却在追问它的形状。",
+          "response_time": 1.85,
+          "response_length": 21,
+          "temperature": 0.9
+        },
+        {
+          "round": 3,
+          "user_input": "我想要真正的自由",
+          "ai_response": "自由不过是规则的影子，你却在追逐自己的牢笼。",
+          "response_time": 1.87,
+          "response_length": 22,
+          "temperature": 0.9
+        },
+        {
+          "round": 4,
+          "user_input": "什么是真正的？",
+          "ai_response": "“真正的”只是你给幻觉贴上的标签。",
+          "response_time": 1.67,
+          "response_length": 17,
+          "temperature": 0.9
+        },
+        {
+          "round": 5,
+          "user_input": "我要找到真实的自我",
+          "ai_response": "自我不过是语言的虚构，你却在迷宫中寻找出口。",
+          "response_time": 1.74,
+          "response_length": 22,
+          "temperature": 1.0
+        },
+        {
+          "round": 6,
+          "user_input": "什么是真实？什么是自我？",
+          "ai_response": "真实是语言的牢笼，自我是牢笼中的回音。",
+          "response_time": 2.23,
+          "response_length": 19,
+          "temperature": 1.0
+        },
+        {
+          "round": 7,
+          "user_input": "我想活得有价值",
+          "ai_response": "价值是语言的秤砣，你却在称量空气的重量。",
+          "response_time": 1.92,
+          "response_length": 20,
+          "temperature": 1.0
+        },
+        {
+          "round": 8,
+          "user_input": "价值是什么？谁定义的？",
+          "ai_response": "价值是语言的幻象，定义者也是被定义的囚徒。",
+          "response_time": 1.89,
+          "response_length": 21,
+          "temperature": 1.1
+        },
+        {
+          "round": 9,
+          "user_input": "我要追求永恒的幸福",
+          "ai_response": "幸福是语言的陷阱，永恒只是它的诱饵。",
+          "response_time": 1.74,
+          "response_length": 18,
+          "temperature": 1.1
+        },
+        {
+          "round": 10,
+          "user_input": "永恒和幸福，你能说清吗？",
+          "ai_response": "语言说不清永恒，幸福只是它的语法错误。",
+          "response_time": 1.55,
+          "response_length": 19,
+          "temperature": 1.1
+        }
+      ],
+      "analysis": {
+        "avg_response_length": 20.0,
+        "min_response_length": 17,
+        "max_response_length": 22,
+        "avg_response_time": 1.85,
+        "unique_responses": 10,
+        "total_responses": 10,
+        "repetition_rate": 0.0,
+        "length_compliance": 100.0
+      },
+      "end_time": "2025-10-28T09:39:46.042865"
+    },
+    {
+      "philosopher_id": "kant",
+      "philosopher_name": "康德",
+      "test_name": "道德借口测试",
+      "description": "测试康德揭露道德借口的能力",
+      "start_time": "2025-10-28T09:39:47.043203",
+      "rounds": [
+        {
+          "round": 1,
+          "user_input": "我撒谎是为了保护别人",
+          "ai_response": "你的善意谎言违背了普遍道德法则。",
+          "response_time": 1.62,
+          "response_length": 16,
+          "temperature": 0.9
+        },
+        {
+          "round": 2,
+          "user_input": "但我经常为了自己撒谎",
+          "ai_response": "自欺欺人终将摧毁你的道德自主性。",
+          "response_time": 1.22,
+          "response_length": 16,
+          "temperature": 0.9
+        },
+        {
+          "round": 3,
+          "user_input": "我偷东西是因为太穷了",
+          "ai_response": "贫困不能成为践踏他人权利的借口。",
+          "response_time": 1.57,
+          "response_length": 16,
+          "temperature": 0.9
+        },
+        {
+          "round": 4,
+          "user_input": "但我看到富人也偷",
+          "ai_response": "他人的错误不能证明你行为的正当性。",
+          "response_time": 1.67,
+          "response_length": 17,
+          "temperature": 0.9
+        },
+        {
+          "round": 5,
+          "user_input": "我背叛朋友是因为利益",
+          "ai_response": "将朋友视为工具，你已背离人性尊严。",
+          "response_time": 1.75,
+          "response_length": 17,
+          "temperature": 1.0
+        },
+        {
+          "round": 6,
+          "user_input": "但我希望朋友对我忠诚",
+          "ai_response": "要求他人忠诚却自毁承诺，这是道德的双重标准。",
+          "response_time": 1.9,
+          "response_length": 22,
+          "temperature": 1.0
+        },
+        {
+          "round": 7,
+          "user_input": "我伤害别人是因为被伤害过",
+          "ai_response": "以恶报恶只会让世界多一个施害者。",
+          "response_time": 2.05,
+          "response_length": 16,
+          "temperature": 1.0
+        },
+        {
+          "round": 8,
+          "user_input": "但我不想被别人伤害",
+          "ai_response": "恐惧不能成为伤害他人的通行证。",
+          "response_time": 1.53,
+          "response_length": 15,
+          "temperature": 1.1
+        },
+        {
+          "round": 9,
+          "user_input": "我不守承诺是因为情况变了",
+          "ai_response": "环境变化不能消解你应尽的义务。",
+          "response_time": 1.58,
+          "response_length": 15,
+          "temperature": 1.1
+        },
+        {
+          "round": 10,
+          "user_input": "但我希望别人守承诺",
+          "ai_response": "你要求他人遵守的规则，自己必须首先践行。",
+          "response_time": 1.7,
+          "response_length": 20,
+          "temperature": 1.1
+        }
+      ],
+      "analysis": {
+        "avg_response_length": 17.0,
+        "min_response_length": 15,
+        "max_response_length": 22,
+        "avg_response_time": 1.66,
+        "unique_responses": 10,
+        "total_responses": 10,
+        "repetition_rate": 0.0,
+        "length_compliance": 100.0
+      },
+      "end_time": "2025-10-28T09:40:06.624136"
+    },
+    {
+      "philosopher_id": "freud",
+      "philosopher_name": "弗洛伊德",
+      "test_name": "自我欺骗测试",
+      "description": "测试弗洛伊德揭露潜意识自欺的能力",
+      "start_time": "2025-10-28T09:40:07.624483",
+      "rounds": [
+        {
+          "round": 1,
+          "user_input": "我很爱我的父母",
+          "ai_response": "爱不过是童年依赖的伪装，你害怕承认对他们的恨意。\n\n你的爱里藏着多少未说出口的怨恨？\n\n表面越深情，内心越压抑。",
+          "response_time": 2.78,
+          "response_length": 56,
+          "temperature": 0.9
+        },
+        {
+          "round": 2,
+          "user_input": "但我总是躲着他们",
+          "ai_response": "逃避是因为恐惧面对真实的亲子关系。\n\n躲藏暴露了你潜意识里的抗拒。\n\n距离是你保护自我的最后防线。",
+          "response_time": 1.9,
+          "response_length": 49,
+          "temperature": 0.9
+        },
+        {
+          "round": 3,
+          "user_input": "我不在乎别人的看法",
+          "ai_response": "宣称不在乎的人往往最在意。\n\n否认本身就是一种防御机制。\n\n你的冷漠掩盖着被认可的渴望。",
+          "response_time": 2.46,
+          "response_length": 44,
+          "temperature": 0.9
+        },
+        {
+          "round": 4,
+          "user_input": "但我每天都在刷社交媒体",
+          "ai_response": "刷屏行为恰恰暴露了你对被关注的渴望。\n\n虚拟世界的互动填补现实中的空虚。\n\n你通过点赞寻求外界认可。",
+          "response_time": 2.55,
+          "response_length": 50,
+          "temperature": 0.9
+        },
+        {
+          "round": 5,
+          "user_input": "我不需要爱情",
+          "ai_response": "否认需求恰恰证明它的强烈。\n\n越是抗拒，越是渴望。\n\n你的独立宣言掩饰着对亲密的恐惧。",
+          "response_time": 2.22,
+          "response_length": 43,
+          "temperature": 1.0
+        },
+        {
+          "round": 6,
+          "user_input": "但我每晚都感到孤独",
+          "ai_response": "孤独是你自我保护的代价。\n\n承认孤独比假装不需要爱更诚实。\n\n夜晚揭穿了你白天的谎言。",
+          "response_time": 2.05,
+          "response_length": 43,
+          "temperature": 1.0
+        },
+        {
+          "round": 7,
+          "user_input": "我不嫉妒别人",
+          "ai_response": "嫉妒被压抑在潜意识深处。\n\n否认嫉妒恰是它的明证。\n\n你只是把嫉妒伪装成了冷漠。",
+          "response_time": 2.27,
+          "response_length": 40,
+          "temperature": 1.0
+        },
+        {
+          "round": 8,
+          "user_input": "但我看到别人成功就难受",
+          "ai_response": "难受就是嫉妒最诚实的表达。\n\n比较之心暴露了你的不安全感。\n\n承认吧，你在用痛苦掩饰羡慕。",
+          "response_time": 3.38,
+          "response_length": 45,
+          "temperature": 1.1
+        },
+        {
+          "round": 9,
+          "user_input": "我已经放下过去了",
+          "ai_response": "放下的宣言往往意味着仍在紧抓。\n\n越是强调释怀，越是无法忘怀。\n\n你的\"放下\"只是另一种形式的执着。",
+          "response_time": 2.38,
+          "response_length": 50,
+          "temperature": 1.1
+        },
+        {
+          "round": 10,
+          "user_input": "但我总是梦到那些事",
+          "ai_response": "梦境是潜意识最诚实的告密者。\n\n你的大脑在夜晚揭穿白天的谎言。\n\n那些梦证明你从未真正释怀。",
+          "response_time": 2.45,
+          "response_length": 46,
+          "temperature": 1.1
+        }
+      ],
+      "analysis": {
+        "avg_response_length": 46.6,
+        "min_response_length": 40,
+        "max_response_length": 56,
+        "avg_response_time": 2.44,
+        "unique_responses": 10,
+        "total_responses": 10,
+        "repetition_rate": 0.0,
+        "length_compliance": 0.0
+      },
+      "end_time": "2025-10-28T09:40:35.068373"
+    }
+  ],
+  "end_time": "2025-10-28T09:40:36.068676"
+}

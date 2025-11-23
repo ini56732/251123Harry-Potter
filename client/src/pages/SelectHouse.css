@@ -1,0 +1,216 @@
+    /* 星星闪烁动画 */
+    @keyframes twinkleSlow {
+
+        0%,
+        100% {
+            opacity: 0.3;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes twinkleFast {
+
+        0%,
+        100% {
+            opacity: 0.2;
+        }
+
+        50% {
+            opacity: 0.9;
+        }
+    }
+
+    .animate-twinkle-slow {
+        animation: twinkleSlow 5s ease-in-out infinite;
+    }
+
+    .animate-twinkle-fast {
+        animation: twinkleFast 2.5s ease-in-out infinite;
+    }
+
+
+
+    /* 黑白墨水扩散动画 */
+    @keyframes inkSpreadBW {
+        0% {
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+
+        30% {
+            width: 60vmin;
+            height: 60vmin;
+            opacity: 0.8;
+        }
+
+        100% {
+            width: 100vmin;
+            height: 100vmin;
+            opacity: 0;
+        }
+    }
+
+    /* 黑白墨水全屏扩散动画 */
+    @keyframes inkSpreadBWFullscreen {
+        0% {
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+
+        20% {
+            width: 120vmin;
+            height: 120vmin;
+            opacity: 0.9;
+        }
+
+        100% {
+            width: 300vmin;
+            height: 300vmin;
+            opacity: 0;
+        }
+    }
+
+    /* 黑白墨水减弱扩散动画 */
+    @keyframes inkSpreadBWReduced {
+        0% {
+            width: 0;
+            height: 0;
+            opacity: 0;
+        }
+
+        25% {
+            width: 80vmin;
+            height: 80vmin;
+            opacity: 0.3;
+        }
+
+        100% {
+            width: 150vmin;
+            height: 150vmin;
+            opacity: 0;
+        }
+    }
+
+
+    /* 分步入场动画 */
+    @keyframes fadeInStep1 {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeInStep2 {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeInStep3 {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .animate-fadeInStep1 {
+        animation: fadeInStep1 0.8s ease-out 0.3s both;
+    }
+
+    .animate-fadeInStep2 {
+        animation: fadeInStep2 0.8s ease-out 1.3s both;
+    }
+
+    .animate-fadeInStep3 {
+        animation: fadeInStep3 1s ease-out 2.3s both;
+    }
+
+
+    .animate-pulse-slow {
+        animation: pulse-slow 8s ease-in-out infinite;
+    }
+
+    .animate-pulse-slower {
+        animation: pulse-slower 10s ease-in-out infinite;
+    }
+
+    .animate-float {
+        animation: float 20s ease-in-out infinite;
+    }
+
+    .animate-float-delayed {
+        animation: float-delayed 25s ease-in-out infinite;
+    }
+
+    /* 信息卡片动画 */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-50%) translateX(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(-50%) translateX(0);
+        }
+    }
+
+    .animate-fadeIn {
+        animation: fadeIn 0.3s ease-out;
+    }
+
+    /* 星球光晕动画 */
+    @keyframes glow-pulse {
+
+        0%,
+        100% {
+            opacity: 0.4;
+            transform: scale(1.08);
+        }
+
+        50% {
+            opacity: 0.6;
+            transform: scale(1.12);
+        }
+    }
+
+    @keyframes glow-strong {
+
+        0%,
+        100% {
+            opacity: 0.6;
+            transform: scale(1.15);
+        }
+
+        50% {
+            opacity: 0.8;
+            transform: scale(1.2);
+        }
+    }
+
+    .animate-glow-pulse {
+        animation: glow-pulse 2.5s ease-in-out infinite;
+    }
+
+    .animate-glow-strong {
+        animation: glow-strong 1.2s ease-in-out infinite;
+    }
