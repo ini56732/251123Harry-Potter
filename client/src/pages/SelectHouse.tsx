@@ -125,8 +125,10 @@ export default function SelectPhilosopher() {
         </div>
       </div>
 
+
+
       {/*文字 */}
-      <div className="fixed top-50 left-1/2 transform -translate-x-1/2 
+      <div className="fixed top-72 left-1/2 transform -translate-x-1/2 
                  flex flex-col items-center animate-fade-in-up">
             <img 
                 src="/select-text.png" 
@@ -142,7 +144,7 @@ export default function SelectPhilosopher() {
 
 
       {/* 学院按钮 */}
-      <div className={`relative w-full flex-1 top-30
+      <div className={`relative w-full flex-1 
        ${isReturning ? '' : 'animate-fadeInStep3'}`} 
        style={{
         opacity: explodingId ? 0 : 1,
@@ -154,10 +156,10 @@ export default function SelectPhilosopher() {
              key={phil.id}
              className="absolute cursor-pointer transition-all duration-500 z-20" // 移除left-1/2
              style={{
-              top: '50%', // 固定垂直居中
+              top: '65%', // 固定垂直居中
               left: `${(index + 1) * (100 / (house.length + 1))}%`, // 横向等距分布计算
-              width: '500px',
-              height: '800px',
+              width: '600px',
+              height: '900px',
               transform: `translate(-50%, -50%) 
               scale(${hoveredId === phil.id ? 1.15 : hoveredId && hoveredId !== phil.id ? 0.85 : 1})`,
               opacity: hoveredId && hoveredId !== phil.id ? 0.3 : 1,

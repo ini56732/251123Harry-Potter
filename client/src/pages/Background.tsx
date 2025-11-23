@@ -10,6 +10,16 @@ export default function Background() {
   const [, setLocation] = useLocation();
   const [isHovered, setIsHovered] = useState(false); // 按钮添加
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+  const [containerHeight, setContainerHeight] = useState('100vh');
+
+  useEffect(() => {
+
+    const isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    const isEdge = /Edg/.test(navigator.userAgent);
+    if (isChrome || isEdge) {
+      setContainerHeight('166.67vh');
+    }
+  }, []);
 
   // 开始对话按钮
   const handleStartChat = () => {
@@ -17,26 +27,25 @@ export default function Background() {
   };
 
   return (
-    <div className="bg-black flex flex-col relative overflow-hidden" style={{ backgroundColor: '#000000' }}>
+    <div className={`bg-black flex flex-col relative overflow-hidden 
+      transition-opacity duration-1000 
+    `} style={{ height: containerHeight }}>
 
-      {/* 背景 */}
+      {/* 背景设计 */}
       <div className="absolute inset-0 pointer-events-none">      
+        {/* 高清图片 */}
         <div className="absolute inset-0 opacity-[0.6]">
           <img 
             src="/background-bg.png" 
             alt="背景图片"
             className="w-full h-full object-cover" 
-            style={{ 
-              maxWidth: '100%',
-              height: 'auto' 
-                }}
            />
         </div>
-      </div>     
+      </div>  
 
 
       {/* 主内容区域 */}
-      <div className="h-full flex flex-col items-center justify-center px-8 md:px-16 py-12 gap-12 relative">
+      <div className="min-h-screen flex flex-col items-center justify-center px-8 md:px-16 py-12 gap-12 relative z-10">
 
         {/* 标题 */}
         <div className="text-center mt-10 mb-12 md:mb-16 lg:mb-20 max-w-6xl animate-fade-in-up">
